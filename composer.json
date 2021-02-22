@@ -1,0 +1,19 @@
+{
+    "name": "eprodigy/internal-connect",
+    "description": "SDK for Internal API for eprodigy/connect app",
+    "type": "sdk",
+    "authors": [
+        {
+            "name": "eProdigy Devteam",
+            "email": "devteam@capitalstackllc.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "EprodigyConnect\\": "src/"
+        }
+    }
+}

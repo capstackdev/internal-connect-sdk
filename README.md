@@ -1,1 +1,1 @@
-# internal-connect-sdk
+See example/index.php
