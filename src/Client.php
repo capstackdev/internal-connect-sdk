@@ -13,7 +13,12 @@ class Client
         $this->token   = $token;
         $this->uid     = $uid;
 
-        $this->client = new Guzzle();
+        $this->client = new Guzzle([
+            'curl' => [
+                CURLOPT_SSL_VERIFYPEER => false,
+                CURLOPT_SSL_VERIFYHOST => false,
+            ],
+        ]);
     }
 
     public function send(Request $request)
