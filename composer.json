@@ -2,6 +2,8 @@
     "name": "eprodigy/internal-connect",
     "description": "SDK for Internal API for eprodigy/connect app",
     "type": "sdk",
+    "license": "MIT",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "eProdigy Devteam",
